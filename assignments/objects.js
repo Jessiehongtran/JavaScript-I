@@ -107,13 +107,12 @@ const parent = {
     
 
 function (name, age){
-  this.parent = parent;
-  this.child = child;
-  this.grandchild = grandchild;
+  this.name = name;
+  this.age = age;
 }
 
 // Log the parent object's name
-return this.name;
+console.log();
 
 // Log the child's age
 
